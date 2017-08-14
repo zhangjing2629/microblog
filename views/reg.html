@@ -1,0 +1,29 @@
+<% include header.html %>
+<form class="form-horizontal" method="post">
+    <fieldset>
+        <legend>User Register</legend>
+          <div class="control-group">
+            <label class="control-label" for="username">UserName</label>
+               <div class="controls">
+                    <input type="text" class="input-xlarge" id="username" name="username">
+                    <p class="help-block">Your acount for login</p>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="password">Password</label>
+                <div class="controls">
+                    <input type="password" class="input-xlarge" id="password" name="password">
+                </div>
+            </div>
+         <div class="control-group">
+            <label class="control-label" for="passwordrepeat">Repeat Passowrd </label>
+            <div class="controls">
+                <input type="password" class="input-xlarge" id="passwordrepeat" name="passwordrepeat">
+            </div>
+        </div>
+        <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Register</button>
+        </div>
+    </fieldset>
+</form>
+<% include footer.html %>
